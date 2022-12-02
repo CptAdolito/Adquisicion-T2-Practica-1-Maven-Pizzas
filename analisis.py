@@ -67,7 +67,7 @@ def transform(pizza_types, order_details, orders, pizzas):
 def load(diccionario_ingredientes):
 
     #Escribir el diccionario en un txt decorandolo un poco
-    with open("dataset/proxima_compra.txt", "w") as f:
+    with open("./proxima_compra.txt", "w") as f:
         for i in diccionario_ingredientes:
             f.write(f"Para la proxima semana se necesita comprar de {i}: {diccionario_ingredientes[i]}\n")
 
